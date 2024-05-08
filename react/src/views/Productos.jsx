@@ -6,7 +6,7 @@ const productos = [
       href: '#',
       imageSrc: 'src/assets/img/taladro.png',
       imageAlt: "Taladrus",
-      price: '$79.990',
+      precio: '$79.990',
       color: 'Black',
     },
     {
@@ -48,7 +48,7 @@ const productos = [
                     </h3>
                     <p className="mt-1 text-sm text-gray-500">{product.color}</p>
                   </div>
-                  <p className="text-sm font-medium text-gray-900">{product.price}</p>
+                  <p className="text-sm font-medium text-gray-900">{product.precio}</p>
                 </div>
               </div>
             ))}
